@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "teams",
+  "info": {
+    "name": "team"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "contacto": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}
